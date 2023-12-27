@@ -130,8 +130,6 @@
 
 
     void Game::resetGame() {
-        // Add code to reset the game to its initial state
-        // For example, you can reinitialize the player's position, health, etc.
         InitSpriteMainCharacter();
         initMap();
     }
@@ -367,7 +365,7 @@
         TileMap[8] =  "B          D                            B";
         TileMap[9] =  "B          BBBB    BBBBBBBB      BBBBBBBB";
         TileMap[10] = "B      BD                                B";
-        TileMap[11] = "B  D   BBB         BBBBBBB            A  B";/*здесь будет выход*/
+        TileMap[11] = "B  D   BBB         BBBBBBB            A  B";
         TileMap[12] = "B  D      BB                    BBBBBBBBBB";
         TileMap[13] = "BBBBB              99         BBBBB      B";
         TileMap[14] = "B         8999999999BBBBB        BBBBBB  B";
@@ -444,7 +442,7 @@
         if (!mBackgroundTexture.loadFromFile("./src/tileset/Background-1.png")) {
             std::cerr << "Failed to load background texture!" << std::endl;
         }
-        mBackgroundSprite.setTexture(mBackgroundTexture); // Используйте уже существующий спрайт, а не создавайте новый
+        mBackgroundSprite.setTexture(mBackgroundTexture); 
         mBackgroundSprite.setPosition(0, 0);
         mBackgroundSprite.setScale(sf::Vector2f(1.f, 1.f));
         window.draw(mBackgroundSprite);
