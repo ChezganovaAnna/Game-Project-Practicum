@@ -6,6 +6,16 @@
 
 #IncludeRegexTransform: 
 
+C:/Users/Public/Documents/ProjectPracticum/game/Entities/Button.cpp
+SFML/Graphics.hpp
+-
+cmath
+-
+iostream
+-
+
+C:/Users/Public/Documents/ProjectPracticum/game/Entities/Button.h
+
 C:/Users/Public/Documents/ProjectPracticum/game/main.cpp
 SFML/Graphics.hpp
 -
@@ -13,6 +23,10 @@ cmath
 -
 iostream
 -
+Windows.h
+-
+Entities/Button.h
+C:/Users/Public/Documents/ProjectPracticum/game/Entities/Button.h
 
 C:/Users/tchez/Downloads/CppDistro/MinGW/include/SFML/Config.hpp
 TargetConditionals.h

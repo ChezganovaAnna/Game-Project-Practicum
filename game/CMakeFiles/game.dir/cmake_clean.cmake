@@ -1,9 +1,9 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/game.dir/Entities/Button.cpp.obj"
   "CMakeFiles/game.dir/main.cpp.obj"
-  "CMakeFiles/game.dir/main.cpp.obj.d"
+  "game.pdb"
   "game.exe"
   "game.exe.manifest"
-  "game.pdb"
   "libgame.dll.a"
 )
 
