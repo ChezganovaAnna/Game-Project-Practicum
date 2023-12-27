@@ -1,5 +1,0 @@
-C:/Users/Public/Documents/ProjectPracticum/CMakeFiles/edit_cache.dir
-C:/Users/Public/Documents/ProjectPracticum/CMakeFiles/rebuild_cache.dir
-C:/Users/Public/Documents/ProjectPracticum/game/CMakeFiles/game.dir
-C:/Users/Public/Documents/ProjectPracticum/game/CMakeFiles/edit_cache.dir
-C:/Users/Public/Documents/ProjectPracticum/game/CMakeFiles/rebuild_cache.dir
